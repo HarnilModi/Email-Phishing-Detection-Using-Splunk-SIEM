@@ -48,6 +48,7 @@ index=mail sourcetype="email:eml"
     mvcount(phish_keywords)>0, "Phishing keywords detected"
 )
 | table _time from to subject urls phish_keywords reason
+```
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/34b836b9-8226-4bfb-a860-5135c41b6f3a" />
 
