@@ -11,7 +11,8 @@ EML_FOLDER = r"C:\email_logs\inbound_eml"
 PROCESSED_FOLDER = r"C:\email_logs\processed_eml"
 
 SPLUNK_HEC = "https://localhost:8088/services/collector"
-SPLUNK_TOKEN = "aae8ad9e-08cf-4223-a026-c1c65c99737b"
+SPLUNK_TOKEN = "<YOUR_SPLUNK_HEC_TOKEN>"
+"
 INDEX = "mail"
 
 CHECK_INTERVAL = 5
@@ -97,3 +98,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
